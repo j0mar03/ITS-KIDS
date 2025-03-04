@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Bayesian-Fuzzy Intelligent Tutoring System for Philippine Grade 3-4 Mathematics",
   "main": "index.js",
+  "react-scripts": "^5.0.1",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon client/server/index.js",
